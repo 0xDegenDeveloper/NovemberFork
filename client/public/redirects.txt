@@ -1,0 +1,12 @@
+/root /
+/algorithms /algorithms
+/algo /algorithms
+/physicals /physicals
+/phy /physicals
+/phys /physicals
+/more /more
+/info /more
+/team /more
+/studio /studio
+/stud /studio
+/stu /studio
