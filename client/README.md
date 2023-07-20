@@ -1,6 +1,8 @@
-# /Studio Control Guide
+# Novemberfork
 
-## Following along is reccomended
+## `/Studio` Control Guide
+
+### Following along is reccomended
 
 - `F` Toggle fullscreen
 - `W,A,S,D` Change gravity direction

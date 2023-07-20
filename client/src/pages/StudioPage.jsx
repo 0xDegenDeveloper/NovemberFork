@@ -71,7 +71,7 @@ function StudioPage(props) {
             <h2>{props.isMobile ? mobileText.one : desktopText.one}</h2>
             <p>
               <a
-                href="https://github.com/0xDegenDeveloper/NovemberFork/tree/main/Studio"
+                href="https://github.com/0xDegenDeveloper/NovemberFork/tree/main/client/README.md"
                 target="_blank"
               >
                 {props.isMobile ? mobileText.two : desktopText.two}
