@@ -37,11 +37,11 @@ function RootPage(props) {
             <h2>
               <p>
                 <a
-                  href="mailto:NovemberFork@proton.me?subject=I'm Ready For The Future"
+                  href="mailto:Novemberfork@proton.me?subject=I'm Ready For The Future"
                   target="_blank"
                 >
                   {" "}
-                  NovemberFork@proton.me
+                  Novemberfork@proton.me
                 </a>
               </p>
             </h2>

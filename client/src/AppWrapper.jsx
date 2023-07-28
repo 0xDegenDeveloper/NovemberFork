@@ -76,7 +76,7 @@ function AppWrapper() {
       <WagmiConfig client={wagmiClient}>
         <RainbowKitProvider
           appInfo={{
-            name: "NovemberFork",
+            name: "Novemberfork",
           }}
           chains={chains}
           theme={darkTheme(theme)}

@@ -22,7 +22,7 @@ export default function Footer(props) {
             // to={"/"}
             onClick={() => props.setIsFooterOpen(!props.isFooterOpen)}
           >
-            Powered By NovemberFork
+            Powered By Novemberfork
           </Link>
           <FontAwesomeIcon
             icon={faChevronDown}

@@ -7,13 +7,13 @@ import * as Nav from "./Navbar.style";
 import { LoginButton } from "../../web3/LoginButton";
 
 function Navbar(props) {
-  const mobileText = [".", "/algo", "/phy", "/more", "NovFork"];
+  const mobileText = [".", "/algo", "/phy", "/more", "Novfork"];
   const desktopText = [
     ". root",
     "/algorithms",
     "/physicals",
     "/more",
-    "NovemberFork",
+    "Novemberfork",
   ];
   const { address, isConnected } = useAccount();
   const options = props.isMobile ? mobileText : desktopText;
