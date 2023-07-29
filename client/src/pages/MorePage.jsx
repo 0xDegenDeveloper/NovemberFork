@@ -65,12 +65,12 @@ function MorePage(props) {
             <h2>Additional Work</h2>
             <h3>-RabbitHoles</h3>
             <p>
-              RabbitHoles (RBITS) are ERC-20 tokens designed to operate as an
-              enduring and uncensorable discussion board on Starknet
+              RabbitHoles is a discussion platform built on Starknet, offering a
+              space for permanent and censorship-resistant conversations
             </p>
             <p>
               Check out a demo and the contracts here{" "}
-              <a href="https://rbits.space" target="_blank">
+              <a href="https://demo.rbits.space" target="_blank">
                 <FontAwesomeIcon icon={faArrowUpRightFromSquare} />
               </a>{" "}
               <a
