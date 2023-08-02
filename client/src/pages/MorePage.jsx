@@ -70,7 +70,7 @@ function MorePage(props) {
             </p>
             <p>
               Check out a demo and the contracts here{" "}
-              <a href="https://demo.rbits.space" target="_blank">
+              <a href="https://rbits.space" target="_blank">
                 <FontAwesomeIcon icon={faArrowUpRightFromSquare} />
               </a>{" "}
               <a
