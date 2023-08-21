@@ -143,7 +143,7 @@ export default (props) => {
 
   const preload = (p5) => {
     p5Ref.current = p5;
-
+    /// replacing the file_name with the actual image obj
     for (const key in imageTable) {
       const { file_name } = imageTable[key];
       const path = `${

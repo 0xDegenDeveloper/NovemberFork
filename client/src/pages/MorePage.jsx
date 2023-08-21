@@ -19,7 +19,9 @@ function MorePage(props) {
             <SnapshotStyle>
               <div className="w2">
                 <a
-                  href={`${import.meta.env.VITE_DOMAIN}/resume_may.pdf`}
+                  href={`${
+                    import.meta.env.VITE_DOMAIN
+                  }/resume_august_hidden.pdf`}
                   className="snapshot"
                   target="_blank"
                 >
