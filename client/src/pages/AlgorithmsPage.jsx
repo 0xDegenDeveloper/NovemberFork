@@ -30,7 +30,7 @@ export const AlgorithmsPage = React.memo((props) => {
           <div>
             <h2>Etheracts</h2>
 
-            <p>An art project & installation by me</p>
+            <p>A personal art & coding project</p>
           </div>
 
           <div>
@@ -41,7 +41,7 @@ export const AlgorithmsPage = React.memo((props) => {
           </div>
           <div>
             <h2>A Taste</h2>
-            <p>The full visualizer is still under developer</p>
+            <p>The full visualizer is still under development</p>
             <p>sample and mint below</p>
           </div>
         </AlgoStyles>
