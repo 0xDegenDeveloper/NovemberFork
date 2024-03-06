@@ -26,7 +26,8 @@ function MorePage(props) {
                   target="_blank"
                 >
                   <img
-                    src={`${import.meta.env.VITE_DOMAIN}/snapshot.jpg`}
+                    src={`${import.meta.env.VITE_DOMAIN}/headshot2.png`}
+                    // src={`${import.meta.env.VITE_DOMAIN}/snapshot.jpg`}
                     alt="Matt Carter"
                     className="id2"
                   />
@@ -61,7 +62,7 @@ function MorePage(props) {
           </div>
         </MoreStyles>
       </Section>
-      <Section>
+      {/* <Section>
         <MoreStyles>
           <div className="rbits">
             <h2>Additional Work</h2>
@@ -84,7 +85,7 @@ function MorePage(props) {
             </p>
           </div>
         </MoreStyles>
-      </Section>
+      </Section> */}
     </>
   );
 }
