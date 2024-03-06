@@ -23,7 +23,7 @@ function RootPage(props) {
     <>
       <Statement
         title="/Supplier of Internet Things"
-        text=": : : Create The Future, Don't Consume It : : :"
+        text=": : : Creating The Future : : :"
         to="#welcome"
       />
       <Section id="welcome">
