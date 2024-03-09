@@ -25,21 +25,21 @@ export function VisualizerSection(props) {
   ];
 
   const sampleMsgs = [
-    "Welcome to the visualizer, this is where you will be able to view minted artifacts and their messages",
-    "Owners can store these messages on chain. Leave a twitter handle and a paragraph",
+    "This is the visualizer, where you will be able to view minted artifacts and their messages",
+    "Owners can store these messages on chain.",
     "Use this feature to promote your content or make a statement",
     "No, they will not be censored, this is web3",
-    "Yes, the current handles are fake (for now), this is a demo",
+    "The current handles are fake (for now), this is a demo",
     "Minting soon...",
   ];
 
   const sampleHandles = [
     "degendeveloper",
-    "metasupplier",
+    "OnlyDust_com",
+    "Starknet",
     "elonmusk",
-    "cobratate",
-    "brakence",
     "punk6529",
+    "degendeveloper",
   ];
 
   return (

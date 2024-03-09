@@ -14,7 +14,7 @@ function MorePage(props) {
       <Section id="welcome">
         <MoreStyles>
           <div>
-            <h2>Founder & Developer</h2>
+            {/* <h2>Founder</h2> */}
 
             <SnapshotStyle>
               <div className="w2">
@@ -26,7 +26,7 @@ function MorePage(props) {
                   target="_blank"
                 >
                   <img
-                    src={`${import.meta.env.VITE_DOMAIN}/headshot2.png`}
+                    src={`${import.meta.env.VITE_DOMAIN}/pfp3.png`}
                     // src={`${import.meta.env.VITE_DOMAIN}/snapshot.jpg`}
                     alt="Matt Carter"
                     className="id2"
@@ -34,7 +34,7 @@ function MorePage(props) {
                 </a>
               </div>
             </SnapshotStyle>
-            <p>Matt Carter </p>
+            <p>Founder, Matt Carter</p>
           </div>
           <div>
             <SnapshotStyle isMobile={isMobile}>
@@ -132,33 +132,30 @@ const SnapshotStyle = styled.div`
     -o-backdrop-filter: blur(10px);
     -ms-backdrop-filter: blur(10px);
   }
+
   .id:hover {
     animation: ${(props) => {
-        const isMobile = props.isMobile;
-        const translateY = !isMobile
-          ? { translateY1: "-350%", translateY2: "-250%" }
-          : { translateY1: "-100%", translateY2: "-70%" };
-
-        return keyframes`
-        0%,
-        5% {
-          transform: translateX(0%) translateY(0%) rotateY(0deg) rotateX(0deg) rotateZ(0deg);
-        }
-
-        30%,
-        33% {
-          transform: translateX(-30%) translateY(${translateY.translateY1}) rotateY(180deg) rotateX(360deg) rotateZ(80deg);
-        }
-
-        60%,
-        65% {
-          transform: translateX(-15%) translateY(${translateY.translateY2}) rotateY(360deg) rotateX(180deg) rotateZ(180deg) rotateY(180deg);
-        }
-
-        100% {
-          transform: translateX(0%) translateY(0%) rotateY(0deg) rotateX(0deg) rotateZ(0deg);
-        }
-      `;
+        // const isMobile = props.isMobile;
+        // const translateY = !isMobile
+        //   ? { translateY1: "-350%", translateY2: "-250%" }
+        //   : { translateY1: "-100%", translateY2: "-70%" };
+        // return keyframes`
+        // 0%,
+        // 5% {
+        //   transform: translateX(0%) translateY(0%) rotateY(0deg) rotateX(0deg) rotateZ(0deg);
+        // }
+        //   30%,
+        //   33% {
+        //     transform: translateX(-30%) translateY(${translateY.translateY1}) rotateY(180deg) rotateX(360deg) rotateZ(80deg);
+        //   }
+        //   60%,
+        //   65% {
+        //     transform: translateX(-15%) translateY(${translateY.translateY2}) rotateY(360deg) rotateX(180deg) rotateZ(180deg) rotateY(180deg);
+        //   }
+        //   100% {
+        //     transform: translateX(0%) translateY(0%) rotateY(0deg) rotateX(0deg) rotateZ(0deg);
+        //   }
+        // `;
       }}
       15s infinite ease-in-out;
   }
@@ -176,7 +173,7 @@ const SnapshotStyle = styled.div`
     /* width: 50%; */
   }
   .id2:hover {
-    animation: rotate360 4s infinite ease-in-out;
+    // animation: rotate360 4s infinite ease-in-out;
   }
 
   @keyframes rotate360 {
@@ -234,7 +231,7 @@ const SnapshotStyle = styled.div`
 const MoreStyles = styled.div`
   display: grid;
   grid-template-columns: 1fr;
-  gap: 1rem;
+  gap: 2rem;
   align-items: center;
   /* padding-left: auto; */
   /* padding-right: auto; */

@@ -26,14 +26,14 @@ import Statement from "../components/global/Statement";
 
 const desktopText = {
   one: "W, A, S, D",
-  two: ": : : Click Here for the Full Control Guide : : :",
-  three: "Submission and voting on the roadmap",
+  two: ": : : Click here for the full control guide : : :",
+  three: "Take a breather, F for fullscreen (C, T, and more).",
 };
 
 const mobileText = {
   one: "Come back on desktop",
-  two: ": : : Click Here for Control Guide : : :",
-  three: "Submission and voting on the roadmap",
+  two: ": : : Click here for control guide : : :",
+  three: "Take a breather.",
 };
 
 function StudioPage(props) {
